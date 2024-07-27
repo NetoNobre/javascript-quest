@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.easy {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.medium {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.hard {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.timer-container {
+  margin-bottom: 20px;
+}
+
+.timer {
+  position: relative;
+  height: 25px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.timer-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #76c7c0;
+}
+
+.timer span {
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  color: #333;
+}
+
+.explanation {
+  margin-top: 20px;
+}
+
+.explanation p {
+  font-size: 18px;
+  color: #555;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
